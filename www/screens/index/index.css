@@ -1,0 +1,320 @@
+i.icon.icon-info {
+  width: 32px;
+  height: 32px;
+  background-image: url("../../resources/img/icons/info.svg");
+}
+i.icon.icon-info.full {
+  width: 32px;
+  height: 32px;
+  background-image: url("../../resources/img/icons/full/info.svg");
+}
+
+i.icon.icon-agenda {
+  width: 32px;
+  height: 32px;
+  background-image: url("../../resources/img/icons/agenda.svg");
+}
+i.icon.icon-agenda.full {
+  width: 32px;
+  height: 32px;
+  background-image: url("../../resources/img/icons/full/agenda.svg");
+}
+
+i.icon.icon-map {
+  width: 34px;
+  height: 34px;
+  background-image: url("../../resources/img/icons/map.svg");
+}
+i.icon.icon-map.full {
+  width: 34px;
+  height: 34px;
+  background-image: url("../../resources/img/icons/full/map.svg");
+}
+
+i.icon.icon-location {
+  width: 32px;
+  height: 32px;
+  background-image: url("../../resources/img/icons/location.svg");
+}
+i.icon.icon-location.full {
+  width: 32px;
+  height: 32px;
+  background-image: url("../../resources/img/icons/full/location.svg");
+}
+
+i.icon.icon-contact {
+  width: 32px;
+  height: 32px;
+  background-image: url("../../resources/img/icons/contact.svg");
+}
+i.icon.icon-contact.full {
+  width: 32px;
+  height: 32px;
+  background-image: url("../../resources/img/icons/full/contact.svg");
+}
+
+i.icon.icon-navigation {
+  width: 30px;
+  height: 30px;
+  background-image: url("../../resources/img/icons/navi.svg");
+}
+
+.statusbar-overlay {
+  background: #264796;
+}
+
+.align-to-top-element {
+  margin-top: 0;
+}
+
+.align-less-to-top-element {
+  margin-top: 4px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.medium-font {
+  font-size: 15px;
+}
+
+.bold-font {
+  font-weight: bold;
+}
+
+.big-font {
+  font-size: 20px;
+}
+
+.bigger-font {
+  font-size: 25px;
+}
+
+.justify-text {
+  text-align: justify;
+}
+
+.radius-zero {
+  border-radius: 0 !important;
+}
+
+img.imageFit {
+  width: 100%;
+  object-fit: contain
+}
+
+img.imageFit-smaller {
+  width: 75%;
+  object-fit: contain
+}
+
+img.imageFit-medium {
+  width: 40%;
+}
+
+img.imageFit-medium-plus {
+  width: 50%;
+}
+
+img.imageFit-mini {
+  width: 26%;
+  object-fit: contain
+}
+
+img.imageFit-mountain {
+  width: 100%;
+  object-fit: contain
+}
+
+.upper-right-logo {
+  margin-right: 10px;
+  margin-left: auto;
+}
+
+.cm-lblue-element {
+  background: #d5e1eb !important;
+}
+
+.cm-grey-background {
+  background: #f6f6f6;
+}
+
+.cm-lblue-background {
+  background: #d5e1eb;
+}
+
+.cm-opco-font {
+  color: #6d6d72;
+}
+
+.remove-bottom-margin {
+  margin-bottom: 0;
+}
+
+.position-logo-center {
+  display: block;
+  margin: 0 auto;
+}
+
+.item-title span {
+  font-size: 13px;
+  display: block;
+}
+
+.agenda-event-list-title {
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+
+.agenda-event-list {
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+
+.agenda-event-list > ul.radius-zero {
+  background: #d5e1eb;
+  border-left: solid 2px #264796;
+}
+
+.button.active {
+  background: #264796;
+  color: #fff;
+}
+
+.opco-button {
+  border: 1px solid #264796;
+  color: #264796;
+}
+
+.opco-top-border {
+  border-top: 1px solid #264796;
+}
+
+.agenda-entry-topic {
+  margin-bottom: 0;
+  margin-top:0;
+}
+
+.agenda-entry-topic > .content-block-inner {
+  background: #264796;
+  color: white;
+}
+.agenda-entry-topic > .content-block-inner > span {
+  margin-left: 18px;
+}
+
+ul.radius-zero > a {
+  color: #6d6d72;
+}
+
+div.tab.cm-opco-font .list-block.inset {
+  font-size: 12px;
+}
+
+div.tab.cm-opco-font .list-block.inset li.item-content {
+  min-height: 15px;
+}
+
+div.tab.cm-opco-font .list-block.inset li.item-content .item-inner{
+  min-height: 15px;
+}
+
+div.tab.cm-opco-font .list-block.inset .item-title > span.agenda-subtitle {
+  font-size: 10px;
+}
+
+/*#gmap{
+  display: block;
+  width: 270px;
+  height: 270px;
+  margin: 0 auto;
+  -moz-box-shadow: 0px 5px 20px #ccc;
+  -webkit-box-shadow: 0px 5px 20px #ccc;
+  box-shadow: 0px 5px 20px #ccc;
+}*/
+
+img.patron-logos {
+  display: block;
+  width: 40%;
+  margin: auto;
+}
+
+img.partner-logos {
+  margin: 5px;
+  height: 60px;
+  width: auto;
+}
+
+.phone-call {
+  background-color: #d5e1eb;
+  color: #264796
+}
+
+#day1, #day2 {
+  margin-bottom: 15px;
+}
+
+#mountain-logo {
+  padding: 6px 1px;
+}
+
+.views { /* suppose to fix this https://github.com/nolimits4web/Framework7/issues/590 */
+  overflow: hidden;
+} /* fixed issue with flickering */
+.create-tab-scroll {
+  height: 395px
+}
+
+div.toolbar-inner > a.increase-clickable-area {
+  padding: 7px;
+  margin: -7px;
+}
+
+img.imageFit-smaller.position-logo-center {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+#conference-title {
+  font-size: 15px;
+  text-align: center;
+  color: #264796;
+}
+
+#hiddenText {
+  display: none;
+}
+
+#moreText {
+  text-align: right;
+  color: #264796;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.list-block.inset.agenda-event-list li.item-content {
+  padding-left: 5px;
+}
+
+.list-block.inset.agenda-event-list li.item-content div.item-inner {
+  padding-right: 8px;
+  width: inherit;
+}
+
+.list-block.inset.agenda-event-list li.item-content div.item-inner .item-media {
+  padding-top: 0;
+  padding-bottom: 0;
+  width: 27px;
+  text-align: right;
+  display: block;
+}
+
+.list-block.inset.agenda-event-list li.item-content div.item-inner .item-title {
+  margin-left: 7px;
+  border-left: 1px solid lightgray;
+  padding-left: 5px;
+}
+
+

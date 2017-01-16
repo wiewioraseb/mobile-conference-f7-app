@@ -1,0 +1,13 @@
+{
+  "name": "cnc-conference-info",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "build": "xcopy /y node_modules\\framework7\\dist\\js www\\library\\lib-js\\ & xcopy /y node_modules\\framework7\\dist\\css www\\library\\lib-css\\",
+    "build-macos": "cp -fa node_modules/framework7/dist/js/. www/library/lib-js/ && cp -fa node_modules/framework7/dist/css/. www/library/lib-css/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "framework7": "1.5.2"
+  }
+}

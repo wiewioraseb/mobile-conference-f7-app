@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="lightcontent">
+  <title>Konferencja Technologiczna C&C</title>
+  <link rel="stylesheet" href="library/lib-css/framework7.ios.min.css">
+  <link rel="stylesheet" href="library/lib-css/framework7.ios.colors.min.css">
+  <link rel="stylesheet" href="library/lib-css/my-app.css">
+  <link rel="stylesheet" href="screens/index/index.css">
+  <link rel="stylesheet" href="screens/index/theme-opco.css">
+</head>
+<body class="theme-opco">
+<div class="statusbar-overlay"></div>
+<div class="panel-overlay"></div>
+<div class="views">
+  <div class="view view-main">
+    <div class="navbar" style="background-color: #264796;color: white;">
+      <div class="navbar-inner">
+        <div class="center sliding">Ski Cup 2017</div>
+      </div>
+    </div>
+    <div class="pages navbar-through toolbar-through">
+      <div data-page="indexPage" class="page cm-grey-background">
+        <div class="page-content">
+          <div class="content-block align-to-top-element remove-bottom-margin">
+            <a href="screens/agenda/agenda.html" class="link">
+              <img class="imageFit-smaller position-logo-center" src="resources/img/pics/CCLogo_google.svg"/>
+            </a>
+          </div>
+          <!--<div class="content-block inset cm-lblue-element radius-zero remove-bottom-margin align-to-top-element" id="mountain-logo">-->
+          <div class="remove-bottom-margin align-to-top-element" id="mountain-logo">
+              <img class="imageFit-mountain position-logo-center" id="mountainImage" src="resources/img/index/1.png"/>
+          </div>
+          <div class="content-block inset align-less-to-top-element" style="margin-bottom: 5px">
+            <div class="content-block-inner radius-zero cm-opco-font">
+              <div id="conference-title"><span class="bold-font">V Zimowa Konferencja Technologiczna</span>
+                oraz&nbsp;Amatorskie Zawody w&nbsp;Narciarstwie Alpejskim
+                <span class="bold-font">o&nbsp;Puchar C&C Partners</span>
+              </div>
+            </div>
+            <div class="content-block-inner radius-zero cm-opco-font">
+              Konferencja technologiczna, skupiona w tym roku wokół tematu
+              <span class="bold-font" style="text-align: center">„TECHNOLOGIE &&nbsp;INNOWACJE”</span>
+              połączona z Amatorskimi Zawodami w&nbsp;Narciarstwie Alpejskim o&nbsp;Puchar Prezesa C&C  jest
+              imprezą cyklicznie organizowaną przez C&C&nbsp;Partners <span id="insertBaitText">oraz...</span>
+              <br>
+
+              <div id="moreText" onclick="showMoreText()">czytaj więcej...</div>
+
+              <div id="hiddenText">
+                <div class="content-block-inner radius-zero cm-opco-font">
+                  Gościem specjalnym wydarzenia jest dr&nbsp;inż. Jacek Oko, z&#8209;ca&nbsp;Kanclerza
+                  ds.&nbsp;Informatyzacji oraz Dyrektor Wrocławskiego Centrum Sieciowo-Superkomputerowego,
+                  który wygłosi prelekcję nt.&nbsp;<span class="bold-font">Trendów rozwoju&nbsp;ICT</span>.
+                </div>
+                <div class="content-block-inner radius-zero cm-opco-font">
+                  Zaprosimy Państwa również na <span class="bold-font">Wystawę Produktów Innowacyjnych</span>,
+                  podczas której zaprezentujemy
+                  zaawansowane rozwiązania oparte na&nbsp;technologiach naszych Partnerów z&nbsp;Grupy TKH, dostosowywane
+                  do indywidualnych potrzeb klientów przez zespół specjalistów&nbsp;IT oraz inżynierów elektryków
+                  z&nbsp;naszej siostrzanej spółki C&C&nbsp;Technology.
+                </div>
+                <div class="content-block-inner radius-zero cm-opco-font">
+                  Atmosferę dobrej zabawy z&nbsp;nutką rywalizacji zapewnimy Państwu podczas zawodów narciarskich
+                  na&nbsp;stoku Jaworzyny&nbsp;Krynickiej.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="content-block inset align-less-to-top-element">
+            <div class="content-block-inner radius-zero cm-opco-font">
+              Nasi partnerzy:
+              <div style="text-align: center; margin-top: 20px">
+                <a href="#" onclick="window.open('https://vdgsecurity.com/sense/', '_system');">
+                  <img class="partner-logos" src="resources/img/partners/VDG.png"/>
+                </a>
+                <a style="padding-left: 40px;" href="#" onclick="window.open('https://www.commend.com/home.html', '_system');">
+                  <img class="partner-logos" src="resources/img/partners/commend.png"/>
+                </a>
+                <br>
+                <a href="#" onclick="window.open('http://www.multimedia-connect.com/index.php', '_system');">
+                  <img class="partner-logos" src="resources/img/partners/MMC_LOGO.png"/>
+                </a>
+                <a style="padding-left: 40px;" href="#" onclick="window.open('https://www.tkf.nl/en', '_system');">
+                  <img class="partner-logos" src="resources/img/partners/TKF_logo.png"/>
+                </a>
+                <br>
+                <a href="#" onclick="window.open('http://www.keyprocessor.com', '_system');">
+                  <img class="partner-logos"
+                       src="resources/img/partners/keyprocessor_logo.png"/>
+                </a>
+                <br>
+                <a href="#" onclick="window.open('http://www.edge-core.com', '_system');">
+                  <img class="partner-logos" src="resources/img/partners/edge-core_logo.png"/>
+                </a>
+              </div>
+            </div>
+            <div class="content-block-inner justify-text radius-zero cm-opco-font">
+              Honorowy patronat obejmie <span class="bold-font">Polska Izba Systemów Alarmowych</span>.
+              <a href="#" onclick="window.open('http://www.pisa.org.pl', '_system');">
+                <img class="patron-logos" src="resources/img/partners/logo1.jpg"/>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="toolbar cm-lblue-background opco-top-border">
+      <div class="toolbar-inner">
+        <a href="index.html" class="link increase-clickable-area"><i id='tb-info' class="icon icon-info"></i></a>
+        <a href="screens/agenda/agenda.html" class="link increase-clickable-area"><i id='tb-agenda' class="icon icon-agenda"></i></a>
+        <a href="screens/maps/maps.html" class="link increase-clickable-area"><i id='tb-map' class="icon icon-map"></i></a>
+        <a href="screens/navigate/navigate.html" class="link increase-clickable-area"><i id='tb-location' class="icon icon-location"></i></a>
+        <a href="screens/contact/contact.html" class="link increase-clickable-area"><i id='tb-contact' class="icon icon-contact"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="library/lib-js/framework7.min.js"></script>
+<script type="text/javascript" src="screens/index/index.js"></script>
+<script type="text/javascript" src="screens/maps/maps.js"></script>
+<script type="text/javascript" src="library/lib-js/moment.min.js"></script>
+<script type="text/javascript" src="screens/agenda/agenda.js"></script>
+<script type="text/javascript" src="screens/agenda/1/first.js"></script>
+<script type="text/javascript" src="screens/navigate/navigate.js"></script>
+<script type="text/javascript" src="screens/contact/contact.js"></script>
+<script type="text/javascript" src="my-app.js"></script>
+</body>
+</html>
